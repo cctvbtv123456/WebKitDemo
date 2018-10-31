@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CMHHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,20 @@
 
 @implementation AppDelegate
 
+#pragma mark- 获取appdelegate
++ (AppDelegate *)sharedDelegate{
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[CMHHomeViewController alloc] initWithParams:nil];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

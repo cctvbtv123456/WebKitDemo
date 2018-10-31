@@ -13,6 +13,26 @@
 		043E612A2188349C0015BC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043E61292188349C0015BC80 /* Assets.xcassets */; };
 		043E612D2188349C0015BC80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043E612B2188349C0015BC80 /* LaunchScreen.storyboard */; };
 		043E61302188349C0015BC80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E612F2188349C0015BC80 /* main.m */; };
+		043E6138218836A50015BC80 /* CMHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E6136218836A50015BC80 /* CMHNavigationController.m */; };
+		043E613B218836BF0015BC80 /* CMHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E6139218836BE0015BC80 /* CMHViewController.m */; };
+		043E614021883C340015BC80 /* UIFont+MHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E613E21883C330015BC80 /* UIFont+MHExtension.m */; };
+		043E614421883DC00015BC80 /* UIBarButtonItem+MHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E614321883DBC0015BC80 /* UIBarButtonItem+MHExtension.m */; };
+		043E614721883DD70015BC80 /* MHBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E614521883DD70015BC80 /* MHBackButton.m */; };
+		043E615C218847DE0015BC80 /* UIView+MHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E615B218847DE0015BC80 /* UIView+MHFrame.m */; };
+		043E615F218848D60015BC80 /* UIImage+MHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E615D218848D50015BC80 /* UIImage+MHExtension.m */; };
+		043E616221884DAA0015BC80 /* CMHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E616121884DAA0015BC80 /* CMHTabBarController.m */; };
+		043E616521884DF60015BC80 /* CMHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E616421884DF50015BC80 /* CMHTabBar.m */; };
+		043E616821884F310015BC80 /* CMHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E616721884F310015BC80 /* CMHHomeViewController.m */; };
+		043E616B218852A50015BC80 /* CMHProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E616A218852A50015BC80 /* CMHProfileViewController.m */; };
+		043E616E218852B80015BC80 /* CMHDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E616D218852B80015BC80 /* CMHDiscoverViewController.m */; };
+		043E6172218859B40015BC80 /* CMHProfileButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E6170218859B40015BC80 /* CMHProfileButton.m */; };
+		043E617521885B950015BC80 /* CMHExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E617421885B950015BC80 /* CMHExampleViewController.m */; };
+		043E617B21885C770015BC80 /* CMHPingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E617721885C750015BC80 /* CMHPingTransition.m */; };
+		043E617C21885C770015BC80 /* CMHPingInvertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E617821885C750015BC80 /* CMHPingInvertTransition.m */; };
+		043E617F21885E2A0015BC80 /* CMHPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E617E21885E2A0015BC80 /* CMHPresentTransition.m */; };
+		043E618221885EA70015BC80 /* CMHDismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E618121885EA60015BC80 /* CMHDismissTransition.m */; };
+		043E618521885F3D0015BC80 /* CMHInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E618321885F3C0015BC80 /* CMHInteractiveTransition.m */; };
+		9C748FA00BAB78B7E33BDE54 /* libPods-WebKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE72778E509CD6855C941F5 /* libPods-WebKitDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +46,49 @@
 		043E612C2188349C0015BC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043E612E2188349C0015BC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043E612F2188349C0015BC80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043E6136218836A50015BC80 /* CMHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHNavigationController.m; sourceTree = "<group>"; };
+		043E6137218836A50015BC80 /* CMHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHNavigationController.h; sourceTree = "<group>"; };
+		043E6139218836BE0015BC80 /* CMHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHViewController.m; sourceTree = "<group>"; };
+		043E613A218836BF0015BC80 /* CMHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHViewController.h; sourceTree = "<group>"; };
+		043E613D218837520015BC80 /* WebKitDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebKitDemo.pch; sourceTree = "<group>"; };
+		043E613E21883C330015BC80 /* UIFont+MHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MHExtension.m"; sourceTree = "<group>"; };
+		043E613F21883C340015BC80 /* UIFont+MHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+MHExtension.h"; sourceTree = "<group>"; };
+		043E614221883DBC0015BC80 /* UIBarButtonItem+MHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MHExtension.h"; sourceTree = "<group>"; };
+		043E614321883DBC0015BC80 /* UIBarButtonItem+MHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MHExtension.m"; sourceTree = "<group>"; };
+		043E614521883DD70015BC80 /* MHBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHBackButton.m; sourceTree = "<group>"; };
+		043E614621883DD70015BC80 /* MHBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHBackButton.h; sourceTree = "<group>"; };
+		043E615A218847DD0015BC80 /* UIView+MHFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MHFrame.h"; sourceTree = "<group>"; };
+		043E615B218847DE0015BC80 /* UIView+MHFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MHFrame.m"; sourceTree = "<group>"; };
+		043E615D218848D50015BC80 /* UIImage+MHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MHExtension.m"; sourceTree = "<group>"; };
+		043E615E218848D60015BC80 /* UIImage+MHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MHExtension.h"; sourceTree = "<group>"; };
+		043E616021884DAA0015BC80 /* CMHTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHTabBarController.h; sourceTree = "<group>"; };
+		043E616121884DAA0015BC80 /* CMHTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMHTabBarController.m; sourceTree = "<group>"; };
+		043E616321884DF40015BC80 /* CMHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTabBar.h; sourceTree = "<group>"; };
+		043E616421884DF50015BC80 /* CMHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTabBar.m; sourceTree = "<group>"; };
+		043E616621884F310015BC80 /* CMHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHHomeViewController.h; sourceTree = "<group>"; };
+		043E616721884F310015BC80 /* CMHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMHHomeViewController.m; sourceTree = "<group>"; };
+		043E6169218852A50015BC80 /* CMHProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHProfileViewController.h; sourceTree = "<group>"; };
+		043E616A218852A50015BC80 /* CMHProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMHProfileViewController.m; sourceTree = "<group>"; };
+		043E616C218852B80015BC80 /* CMHDiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHDiscoverViewController.h; sourceTree = "<group>"; };
+		043E616D218852B80015BC80 /* CMHDiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMHDiscoverViewController.m; sourceTree = "<group>"; };
+		043E616F2188536E0015BC80 /* CMHConstEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHConstEnum.h; sourceTree = "<group>"; };
+		043E6170218859B40015BC80 /* CMHProfileButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHProfileButton.m; sourceTree = "<group>"; };
+		043E6171218859B40015BC80 /* CMHProfileButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHProfileButton.h; sourceTree = "<group>"; };
+		043E617321885B950015BC80 /* CMHExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHExampleViewController.h; sourceTree = "<group>"; };
+		043E617421885B950015BC80 /* CMHExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMHExampleViewController.m; sourceTree = "<group>"; };
+		043E617721885C750015BC80 /* CMHPingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHPingTransition.m; sourceTree = "<group>"; };
+		043E617821885C750015BC80 /* CMHPingInvertTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHPingInvertTransition.m; sourceTree = "<group>"; };
+		043E617921885C750015BC80 /* CMHPingTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHPingTransition.h; sourceTree = "<group>"; };
+		043E617A21885C750015BC80 /* CMHPingInvertTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHPingInvertTransition.h; sourceTree = "<group>"; };
+		043E617D21885E290015BC80 /* CMHPresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHPresentTransition.h; sourceTree = "<group>"; };
+		043E617E21885E2A0015BC80 /* CMHPresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHPresentTransition.m; sourceTree = "<group>"; };
+		043E618021885EA60015BC80 /* CMHDismissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHDismissTransition.h; sourceTree = "<group>"; };
+		043E618121885EA60015BC80 /* CMHDismissTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHDismissTransition.m; sourceTree = "<group>"; };
+		043E618321885F3C0015BC80 /* CMHInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHInteractiveTransition.m; sourceTree = "<group>"; };
+		043E618421885F3C0015BC80 /* CMHInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHInteractiveTransition.h; sourceTree = "<group>"; };
+		A11D2526989CD4F42403E267 /* Pods-WebKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebKitDemo/Pods-WebKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B3A309E339111972A98A8B8A /* Pods-WebKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebKitDemo/Pods-WebKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE72778E509CD6855C941F5 /* libPods-WebKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C748FA00BAB78B7E33BDE54 /* libPods-WebKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +108,8 @@
 			children = (
 				043E611F2188349A0015BC80 /* WebKitDemo */,
 				043E611E2188349A0015BC80 /* Products */,
+				372A0453DA2B3ED121300401 /* Pods */,
+				38686D3221B82F9D8CB80A13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +124,98 @@
 		043E611F2188349A0015BC80 /* WebKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				043E617621885C750015BC80 /* Transition */,
+				043E614121883DBC0015BC80 /* UIBarButtonItem */,
+				043E613C218837230015BC80 /* SuperView */,
 				043E61202188349A0015BC80 /* AppDelegate.h */,
 				043E61212188349A0015BC80 /* AppDelegate.m */,
 				043E61232188349A0015BC80 /* ViewController.h */,
 				043E61242188349A0015BC80 /* ViewController.m */,
+				043E616621884F310015BC80 /* CMHHomeViewController.h */,
+				043E616721884F310015BC80 /* CMHHomeViewController.m */,
+				043E616C218852B80015BC80 /* CMHDiscoverViewController.h */,
+				043E616D218852B80015BC80 /* CMHDiscoverViewController.m */,
+				043E6169218852A50015BC80 /* CMHProfileViewController.h */,
+				043E616A218852A50015BC80 /* CMHProfileViewController.m */,
+				043E617321885B950015BC80 /* CMHExampleViewController.h */,
+				043E617421885B950015BC80 /* CMHExampleViewController.m */,
 				043E61262188349A0015BC80 /* Main.storyboard */,
 				043E61292188349C0015BC80 /* Assets.xcassets */,
 				043E612B2188349C0015BC80 /* LaunchScreen.storyboard */,
 				043E612E2188349C0015BC80 /* Info.plist */,
 				043E612F2188349C0015BC80 /* main.m */,
+				043E613D218837520015BC80 /* WebKitDemo.pch */,
 			);
 			path = WebKitDemo;
+			sourceTree = "<group>";
+		};
+		043E613C218837230015BC80 /* SuperView */ = {
+			isa = PBXGroup;
+			children = (
+				043E616F2188536E0015BC80 /* CMHConstEnum.h */,
+				043E6171218859B40015BC80 /* CMHProfileButton.h */,
+				043E6170218859B40015BC80 /* CMHProfileButton.m */,
+				043E616321884DF40015BC80 /* CMHTabBar.h */,
+				043E616421884DF50015BC80 /* CMHTabBar.m */,
+				043E614621883DD70015BC80 /* MHBackButton.h */,
+				043E614521883DD70015BC80 /* MHBackButton.m */,
+				043E615E218848D60015BC80 /* UIImage+MHExtension.h */,
+				043E615D218848D50015BC80 /* UIImage+MHExtension.m */,
+				043E615A218847DD0015BC80 /* UIView+MHFrame.h */,
+				043E615B218847DE0015BC80 /* UIView+MHFrame.m */,
+				043E613F21883C340015BC80 /* UIFont+MHExtension.h */,
+				043E613E21883C330015BC80 /* UIFont+MHExtension.m */,
+				043E6137218836A50015BC80 /* CMHNavigationController.h */,
+				043E6136218836A50015BC80 /* CMHNavigationController.m */,
+				043E613A218836BF0015BC80 /* CMHViewController.h */,
+				043E6139218836BE0015BC80 /* CMHViewController.m */,
+				043E616021884DAA0015BC80 /* CMHTabBarController.h */,
+				043E616121884DAA0015BC80 /* CMHTabBarController.m */,
+			);
+			path = SuperView;
+			sourceTree = "<group>";
+		};
+		043E614121883DBC0015BC80 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				043E614221883DBC0015BC80 /* UIBarButtonItem+MHExtension.h */,
+				043E614321883DBC0015BC80 /* UIBarButtonItem+MHExtension.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		043E617621885C750015BC80 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				043E617D21885E290015BC80 /* CMHPresentTransition.h */,
+				043E617E21885E2A0015BC80 /* CMHPresentTransition.m */,
+				043E618021885EA60015BC80 /* CMHDismissTransition.h */,
+				043E618121885EA60015BC80 /* CMHDismissTransition.m */,
+				043E618421885F3C0015BC80 /* CMHInteractiveTransition.h */,
+				043E618321885F3C0015BC80 /* CMHInteractiveTransition.m */,
+				043E617921885C750015BC80 /* CMHPingTransition.h */,
+				043E617721885C750015BC80 /* CMHPingTransition.m */,
+				043E617A21885C750015BC80 /* CMHPingInvertTransition.h */,
+				043E617821885C750015BC80 /* CMHPingInvertTransition.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		372A0453DA2B3ED121300401 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3A309E339111972A98A8B8A /* Pods-WebKitDemo.debug.xcconfig */,
+				A11D2526989CD4F42403E267 /* Pods-WebKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38686D3221B82F9D8CB80A13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE72778E509CD6855C941F5 /* libPods-WebKitDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043E61332188349C0015BC80 /* Build configuration list for PBXNativeTarget "WebKitDemo" */;
 			buildPhases = (
+				5B59F46E05FF1391A7F1D2DC /* [CP] Check Pods Manifest.lock */,
 				043E61192188349A0015BC80 /* Sources */,
 				043E611A2188349A0015BC80 /* Frameworks */,
 				043E611B2188349A0015BC80 /* Resources */,
+				AD28E88C96DB236CED5F6239 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,14 +285,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B59F46E05FF1391A7F1D2DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD28E88C96DB236CED5F6239 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WebKitDemo/Pods-WebKitDemo-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebKitDemo/Pods-WebKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		043E61192188349A0015BC80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043E618521885F3D0015BC80 /* CMHInteractiveTransition.m in Sources */,
+				043E616821884F310015BC80 /* CMHHomeViewController.m in Sources */,
+				043E615F218848D60015BC80 /* UIImage+MHExtension.m in Sources */,
+				043E6172218859B40015BC80 /* CMHProfileButton.m in Sources */,
+				043E6138218836A50015BC80 /* CMHNavigationController.m in Sources */,
+				043E616521884DF60015BC80 /* CMHTabBar.m in Sources */,
+				043E617521885B950015BC80 /* CMHExampleViewController.m in Sources */,
+				043E614421883DC00015BC80 /* UIBarButtonItem+MHExtension.m in Sources */,
+				043E617B21885C770015BC80 /* CMHPingTransition.m in Sources */,
+				043E616E218852B80015BC80 /* CMHDiscoverViewController.m in Sources */,
+				043E617F21885E2A0015BC80 /* CMHPresentTransition.m in Sources */,
+				043E613B218836BF0015BC80 /* CMHViewController.m in Sources */,
+				043E614721883DD70015BC80 /* MHBackButton.m in Sources */,
 				043E61252188349A0015BC80 /* ViewController.m in Sources */,
+				043E616221884DAA0015BC80 /* CMHTabBarController.m in Sources */,
+				043E618221885EA70015BC80 /* CMHDismissTransition.m in Sources */,
+				043E615C218847DE0015BC80 /* UIView+MHFrame.m in Sources */,
+				043E614021883C340015BC80 /* UIFont+MHExtension.m in Sources */,
 				043E61302188349C0015BC80 /* main.m in Sources */,
 				043E61222188349A0015BC80 /* AppDelegate.m in Sources */,
+				043E616B218852A50015BC80 /* CMHProfileViewController.m in Sources */,
+				043E617C21885C770015BC80 /* CMHPingInvertTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +490,12 @@
 		};
 		043E61342188349C0015BC80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A309E339111972A98A8B8A /* Pods-WebKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9CGEWW2EV8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WebKitDemo/WebKitDemo.pch";
 				INFOPLIST_FILE = WebKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,10 +509,12 @@
 		};
 		043E61352188349C0015BC80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A11D2526989CD4F42403E267 /* Pods-WebKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9CGEWW2EV8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WebKitDemo/WebKitDemo.pch";
 				INFOPLIST_FILE = WebKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

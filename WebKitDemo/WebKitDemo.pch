@@ -1,0 +1,72 @@
+//
+//  WebKitDemo.pch
+//  WebKitDemo
+//
+//  Created by mac on 2018/10/30.
+//  Copyright © 2018 zhihuiketang. All rights reserved.
+//
+
+#ifndef WebKitDemo_pch
+#define WebKitDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "CMHConstEnum.h"
+
+//基本尺寸
+#define Screen_W                [UIScreen mainScreen].bounds.size.width
+#define Screen_H                [UIScreen mainScreen].bounds.size.height
+
+
+/// 系统or第三方框架
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <MJRefresh/MJRefresh.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import "YYWebImage.h"
+#import "Masonry.h"
+
+#import "KVOController.h"
+#import "UIFont+MHExtension.h"
+#import "UIView+MHFrame.h"
+#import "UIImage+MHExtension.h"
+#import "UIBarButtonItem+MHExtension.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "Colours.h"
+
+// 销毁打印
+#define MHDealloc NSLog(@"\n =========+++ %@  销毁了 +++======== \n",[self class])
+
+
+// 设置图片
+#define MHImageNamed(__imageName) [UIImage imageNamed:__imageName]
+
+// 随机色
+#define MHRandomColor MHColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+// 根据rgbValue获取值
+#define MHColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]// 随机色
+#define MHRandomColor MHColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+// 根据rgbValue获取值
+#define MHColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+// 颜色
+#define MHColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+/**
+ * 设置颜色
+ */
+#define MHColorFromHexString(__hexString__) [UIColor colorFromHexString:__hexString__]
+
+// 是否为空对象
+#define MHObjectIsNil(__object)  ((nil == __object) || [__object isKindOfClass:[NSNull class]])
+
+// 字符串为空
+#define MHStringIsEmpty(__string) ((__string.length == 0) || MHObjectIsNil(__string))
+// 字符串不为空
+#define MHStringIsNotEmpty(__string)  (!MHStringIsEmpty(__string))
+
+/// 自动设置Image
+#define CMHWebImageOptionAutomatic (YYWebImageOptionAllowInvalidSSLCertificates|YYWebImageOptionAllowBackgroundTask|YYWebImageOptionSetImageWithFadeAnimation)
+
+#endif /* WebKitDemo_pch */
