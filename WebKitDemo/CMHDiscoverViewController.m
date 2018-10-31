@@ -29,6 +29,9 @@
 
     // 设置导航栏
     [self _setupNavigationItem];
+    
+    // 设置UI控件
+    [self setupUI];
 }
 
 #pragma mark - 设置导航栏
@@ -38,6 +41,12 @@
     
 //    /// 添加按钮
 //    self.navigationItem.rightBarButtonItem = [UIBarButtonItem mh_systemItemWithTitle:nil titleColor:nil imageName:@"barbuttonicon_add_30x30" target:self selector:@selector(_addMore) textType:NO];
+}
+
+- (void)setupUI{
+    self.centerV = [[UIView alloc] init];
+    self.centerV.bounds = CGRectMake(0, 0, 80, 80);
+    self.centerV.center = self.view.center;
 }
 
 #pragma mark - 事件处理Or辅助方法

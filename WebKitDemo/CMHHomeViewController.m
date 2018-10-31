@@ -48,7 +48,7 @@
     //我的
     UINavigationController *profileNavigationVC = ({
         
-        CMHDiscoverViewController *vc = [[CMHDiscoverViewController alloc] initWithParams:nil];
+        CMHProfileViewController *vc = [[CMHProfileViewController alloc] initWithParams:nil];
         
         CMHTabBarItemTagType tagtype = CMHTabBarItemTagTypeProfile;
         

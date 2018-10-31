@@ -62,6 +62,8 @@
     
     /// 获取到CustomView
     UIView *customView = fromVC.navigationItem.leftBarButtonItem.customView;
+#pragma mark 修改转场动画的位置
+//    UIView *customV = fromVC.centerV;
     
     /// customView在导航栏上 将customView 转换成Window上的坐标系
     CGRect rect = [customView.superview convertRect:customView.frame toView:nil];

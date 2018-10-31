@@ -10,4 +10,6 @@
 
 @interface CMHDiscoverViewController : CMHViewController
 
+@property (nonatomic, strong) UIView *centerV;
+
 @end

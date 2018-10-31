@@ -21,7 +21,7 @@
 #import "CMHExampleViewController.h"
 #import "CMHPingInvertTransition.h"
 
-@interface CMHExampleViewController ()
+@interface CMHExampleViewController ()<UIGestureRecognizerDelegate>
 
 /// 背景图片
 @property (nonatomic , readwrite , weak) UIImageView *bgImageView;
@@ -67,22 +67,19 @@
 #pragma mark - 事件处理Or辅助方法
 - (void)_closeBtnDidClicked:(UIButton *)sender{
     
-    self.navigationController.delegate = self;
+//    self.navigationController.delegate = self;
     [self.navigationController popViewControllerAnimated:YES];
 }
 
-#pragma mark - UINavigationControllerDelegate
-- (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
-                                   animationControllerForOperation:(UINavigationControllerOperation)operation
-                                                fromViewController:(UIViewController *)fromVC
-                                                  toViewController:(UIViewController *)toVC{
-    if (operation == UINavigationControllerOperationPop) {
-        CMHPingInvertTransition *pingInvert = [CMHPingInvertTransition new];
-        return pingInvert;
-    }else{
-        return nil;
-    }
-}
+//#pragma mark - UINavigationControllerDelegate
+//- (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC{
+//    if (operation == UINavigationControllerOperationPop) {
+//        CMHPingInvertTransition *pingInvert = [CMHPingInvertTransition new];
+//        return pingInvert;
+//    }else{
+//        return nil;
+//    }
+//}
 
 #pragma mark - 初始化
 - (void)_setup{
@@ -91,8 +88,6 @@
 
 #pragma mark - 设置导航栏
 - (void)_setupNavigationItem{
-    
-    
     
 }
 
